@@ -1,0 +1,175 @@
+body{
+  background-color: aliceblue;
+}
+
+.card1 {
+margin-top: 100px;
+  margin-left: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.card1:hover {
+transform: scale(1.05);
+}
+
+.card1 img {
+width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card1 h3 {
+  margin: 15px 0 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.card1 p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.card1 a {
+  text-decoration: none;
+  color: white;
+  background-color: #0077cc;
+  padding: 14px 24px;    
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 1.1rem;   
+  font-weight: 600;      
+  min-width: 120px;        
+  text-align: center;      
+  transition: background-color 0.3s ease;
+}
+
+.card1 a:hover {
+  background-color: #005fa3;  
+}
+  
+.apresentação{
+    text-align: center;
+}
+
+.apresentação h1{
+    font-size: 50px;
+    animation: slideIn 1s ease-out;
+}
+
+.apresentação p{
+    font-size: 20px;
+    animation: slideIn 1s ease-out;
+}
+
+.card2 {
+  margin-top: 100px;
+  margin-left: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.card2:hover {
+transform: scale(1.05);
+}
+
+.card2 img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card2 h3 {
+  margin: 15px 0 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.card2 p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.card2 a {
+  background-color: #0077cc;
+  text-decoration: none;
+  color: white;
+  padding: 14px 24px;    
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 1.1rem;   
+  font-weight: 600;      
+  min-width: 120px;        
+  text-align: center;      
+  transition: background-color 0.3s ease;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center; 
+    gap: 30px;               
+    flex-wrap: wrap;        
+    padding: 40px;
+  }
+  
+.techs {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.techs h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  color: #222;
+}
+
+.techs ul {
+  padding-left: 20px;
+}
+
+.techs li {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.techs li::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.oque_faço{
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
